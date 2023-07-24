@@ -138,17 +138,16 @@ justify-content: space-between;
       .card1 p{
        width: 200px;  
       }
-      .card{
-         width: 200px;
+     
+      p{
+         font-size: 12px;
       }
-       .card{
-        text-align: center;
-        width:95%;
-       }
-       .text{
-         text-align: center;
-       }
-
+     h5{
+      font-size: 20px;
+     }
+      img{
+         width: 00px;
+      }
      }
 
      .card1{
@@ -185,23 +184,64 @@ justify-content: space-between;
          font-size: 2rem;
          text-align: center;
        }
-       .about{
-         width: 100%;
-         padding: 50px 3px;
+       /* .about{
+         padding: 40px 3px;
          background-color: #191919;
-         flex-wrap: wrap;
-         
-       }
-       .card{
-         box-shadow: 4px 4px 4px black;
         
+         
+       } */
+       /* .card{
+         height: auto;
+         width: 100%;
+         box-shadow: 4px 4px 4px black;
+        flex-wrap: wrap;
+        background-size: contain;
+        object-fit: contain;
+       }
+         .col img{
+         object-fit: contain;
+         max-width: 100%;
        }
        .action{
          border-radius: 10px;
          font-weight: bolder;
          color: aliceblue;
          background-color: #f9004d;
-       }
+       } */
+.header{
+   display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 40px 3px;
+gap: 50px;
+}
+.head{
+   border: 1px solid black;
+   width: 250px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 6px 5px 6px  black;
+}
+button{
+   padding: 7px;
+   width: 100px;
+   font-weight: bolder;
+   color: white;
+   background-color: #f9004d;
+   border-radius: 14px;
+   margin-top: 10px;
+}
+
+img{
+   width: 250px;
+border-top-left-radius: 11px;
+border-top-right-radius: 13px;
+}
+h5{
+   font-size: 20px;
+   font-weight: bolder;
+}
+
        footer{
          position: relative;
          width: 100%;
