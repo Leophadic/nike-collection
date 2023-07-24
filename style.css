@@ -152,20 +152,20 @@ justify-content: space-between;
      }
 
      .card1{
-     margin-top: 100px;
+     margin-top: 150px;
      margin-left: 50px;
         
       
           }
           h1{
             font-weight: bolder;
-            font-size: 5rem;
+            font-size: 6rem;
             color: #f9004d;
             font-style: italic;
          }
           h2{
             font-weight: bolder;
-            font-size: 3rem;
+            font-size: 4rem;
             color: white;
             font-style: italic;
             line-height: 50px;
